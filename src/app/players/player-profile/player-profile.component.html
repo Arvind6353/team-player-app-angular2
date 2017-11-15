@@ -1,0 +1,13 @@
+<div class="card text-white bg-dark" *ngIf="selectedPlayer">
+  <div class="card-body">
+    <h4 class="card-title">Profile Information</h4>
+      <p class="card-text">
+        <strong>NAME : </strong>{{selectedPlayer.name}}</p>
+      <p class="card-text">
+        <strong>TEAM : </strong>{{selectedPlayer.teamName}}</p>
+      <p class="card-text">
+        <strong>EXPERIENCE : </strong>{{selectedPlayer.experience}}</p>
+      <p class="card-text">
+        <strong>POINTS SCORED : </strong>{{selectedPlayer.points}}</p>
+  </div>
+</div>
